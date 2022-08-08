@@ -1,1 +1,1 @@
-static
+A static website consists of a series of HTML files, each one representing a physical page of a website. On static sites, each page is a separate HTML file. When you visit the homepage, you are viewing only the actual homepage file.
