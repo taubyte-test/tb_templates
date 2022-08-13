@@ -1,1 +1,1 @@
-Empty repository. Start a project on a clean slate.
+Empty repository. Start a project on a clean slate
