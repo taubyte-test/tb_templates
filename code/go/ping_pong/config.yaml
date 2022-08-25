@@ -4,7 +4,7 @@ trigger:
     paths:
         - /ping
 includes:
-        - ping_pong.go
+    - /functions/pingpong.go
 execution:
     timeout: 10s
     memory: 10MB
