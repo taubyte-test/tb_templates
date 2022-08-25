@@ -1,0 +1,12 @@
+description: Returns a socket url to the matched channel
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ws/url
+includes:
+    - /get_socket_url.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getsocketurl

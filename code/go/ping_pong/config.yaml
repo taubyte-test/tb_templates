@@ -1,11 +1,11 @@
-description: A function that returns pong to a ping over http
+description: Returns pong to a ping over http
 trigger:
     type: https
     method: GET
     paths:
         - /ping
 includes:
-    - /functions/pingpong.go
+    - /pingpong.go
 execution:
     timeout: 10s
     memory: 10MB
