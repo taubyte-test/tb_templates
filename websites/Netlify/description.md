@@ -1,0 +1,1 @@
+Host websites built/managed using netlify-cms.
