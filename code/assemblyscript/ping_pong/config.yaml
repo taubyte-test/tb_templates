@@ -1,0 +1,12 @@
+description: Returns pong to a ping over http
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+includes:
+    - /pingpong.ts
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
