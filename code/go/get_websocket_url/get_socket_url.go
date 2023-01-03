@@ -1,8 +1,8 @@
 package lib
 
 import (
-	"bitbucket.org/taubyte/go-sdk/event"
-	"bitbucket.org/taubyte/go-sdk/pubsub"
+	"github.com/taubyte/go-sdk/event"
+	"github.com/taubyte/go-sdk/pubsub"
 )
 
 //export getsocketurl

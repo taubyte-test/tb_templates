@@ -1,7 +1,7 @@
 package lib
 
 import (
-	"bitbucket.org/taubyte/go-sdk/event"
+	"github.com/taubyte/go-sdk/event"
 )
 
 //export ping
