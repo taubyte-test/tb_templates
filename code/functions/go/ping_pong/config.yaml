@@ -1,4 +1,5 @@
 description: Returns pong to a ping over http
+source: .
 trigger:
     type: https
     method: GET

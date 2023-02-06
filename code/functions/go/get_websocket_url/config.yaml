@@ -1,4 +1,5 @@
 description: Returns a socket url to the matched channel
+source: .
 trigger:
     type: https
     method: GET
