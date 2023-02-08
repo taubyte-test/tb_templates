@@ -1,3 +1,3 @@
-module func 
+module function 
 
 go 1.19
