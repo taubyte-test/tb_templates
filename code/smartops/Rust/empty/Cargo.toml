@@ -9,4 +9,4 @@ crate-type = ["cdylib"]
 path = "lib.rs"
 
 [dependencies]
-taubyte-rs-sdk = { git = "https://bitbucket.org/taubyte/rust-sdk" }
+
