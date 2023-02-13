@@ -5,8 +5,6 @@ trigger:
     method: GET
     paths:
         - /ping
-includes:
-    - /pingpong.go
 execution:
     timeout: 10s
     memory: 10MB
