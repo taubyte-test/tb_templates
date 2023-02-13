@@ -5,8 +5,6 @@ trigger:
     method: GET
     paths:
         - /ws/url
-includes:
-    - /get_socket_url.go
 execution:
     timeout: 10s
     memory: 10MB
