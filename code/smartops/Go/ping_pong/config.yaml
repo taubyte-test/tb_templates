@@ -1,0 +1,6 @@
+description: 'This smartops will confirm that the function called is an http function'
+source: .
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: confirmHttp

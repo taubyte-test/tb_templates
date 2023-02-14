@@ -1,0 +1,11 @@
+description: Returns pong to a ping over http
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping

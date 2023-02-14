@@ -1,11 +1,10 @@
 description: Returns pong to a ping over http
+source: .
 trigger:
     type: https
     method: GET
     paths:
         - /ping
-includes:
-    - /pingpong.go
 execution:
     timeout: 10s
     memory: 10MB

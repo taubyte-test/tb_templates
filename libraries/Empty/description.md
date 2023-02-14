@@ -1,2 +1,2 @@
-empty repository.
+Empty golang library repository.
 
