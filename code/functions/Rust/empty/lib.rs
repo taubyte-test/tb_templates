@@ -3,5 +3,5 @@ use taubyte_sdk::event::Event;
 
 #[no_mangle]
 pub fn function(event: Event) -> u32 {
-    return 0;
+    0
 }

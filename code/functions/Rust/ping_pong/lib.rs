@@ -6,5 +6,5 @@ pub fn ping(event: Event) -> u32 {
     let http = event.http().unwrap();
     _ = http.write("pong".as_bytes()).unwrap();
 
-    return 0;
+    0
 }
